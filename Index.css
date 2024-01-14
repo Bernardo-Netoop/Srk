@@ -1,0 +1,210 @@
+
+body{
+    margin: 0 auto;
+    background-color: rgb(20, 20, 20);
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+.banner{
+    position: relative;
+    height: 20vh;    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logotipo {
+    width: 20%;
+    position:absolute;
+    top: -120px;
+    left: -40px;
+}
+
+.banner2{
+  position: absolute;
+  background-color: rgb(7, 71, 18);
+  width: 100%;
+  top: 127px;
+  height: 55px;
+  left: 0;
+}
+
+.slogan{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  transition: color 0.5s;
+  top: 4px;
+  left: 500px;
+} 
+
+.slogan:hover {
+  color: black;
+}
+
+.secret{
+  display: flex;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.979) ;
+  margin-left: 1000px;
+  border-radius: 8px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  margin-bottom: 0;
+  color: white;
+}
+
+button{
+  padding: 4px;
+  background-color: #01a507;
+  color: #fff;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+  height: 15px;
+}
+
+
+
+.saudemental{
+  position: absolute;
+  background-color: rgb(50, 53, 51);
+  top: 300px;
+  left: 0;
+  width: 100%;
+}
+
+.saudemental h1{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.saudemental img{
+  margin: 10px;
+}
+
+.money{
+  position: absolute;
+  background-color:rgb(50, 53, 51);
+  top: 700px ;
+  left: 0;
+  width: 100%;
+}
+
+.money h1{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.money img{
+  margin: 10px;
+}
+ 
+.livros{
+  position: absolute;
+  background-color:  rgb(50, 53, 51);
+  top: 1100px;
+  left: 0;
+  width: 100%;
+}
+
+.livros h1{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.livros img{
+  margin: 10px;
+}
+
+
+.ebooks{
+  position: absolute;
+  background-color:  rgb(50, 53, 51);
+  top: 1500px;
+  left: 0;
+  width: 100%;
+}
+
+.ebooks h1{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.ebooks img{
+  margin: 10px;
+}
+
+.saude{
+  position: absolute;
+  background-color:  rgb(50, 53, 51);
+  top: 1900px;
+  left: 0;
+  width: 100%;
+}
+
+.saude h1{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.saude img{
+  margin: 10px;
+}
+
+.rodape{
+  position: absolute;
+  background-color: rgb(50, 53, 51);
+  width: 100%;
+  top: 2300px;
+  height: 80px;
+  left: 0;
+  height: 350pxa;
+}
+
+.p{
+  display: flex;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: cursive;
+  color: white;
+}
+
+.t{
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: cursive;
+  color: white;
+}
+
